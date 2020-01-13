@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 # lab2
  
 #Exercise 1
@@ -11,8 +10,6 @@
 # call your function and plot the histogram of a sample and overlay it with the normal density curve
 # you might want to use the numpy function linspace
  
- 
-
 
 #Exercise 2
 # write a joint density function (function of x,label) for a mixture of two normal distributions 
@@ -29,11 +26,15 @@
 
  
 #Exercise 4
-# write a closure that accepts, x,a,b and returns 2 functions, a function f that returns (x+a)*(x*x-b*b) and function g that is its gradient
-# use scipy.optimize brentq root finder to find smallest root of given function with a=1., b=1.1
-# pretend you don't know the answer but you are told the root is within [-2,0.]
+# write a closure that accepts, x,a,b and returns 2 functions, a function f that returns (x+a)*(x*x-b*b) and function g that is its derivative,
+# use scipy.optimize brentq root finder to find smallest root of given function with a=1., b=1.1.
+# plot the function f and derivative g funct
+# Based on the plot you might randomly try a window of -2 and 0 and see what happens.
+
+# One approach to find a reasonable window is to find the roots of the derivative, 
+# as those are inflection points, to comple up with reasonable windows to find the negative roots.
+# Use root finder to find roots of the derivative function and use that to find a suitable window to find the 2 negative roots of f
  
-# use root finder to find roots of gradient function and use that to find a suitable window to find roots of f
 
 
 
@@ -42,9 +43,7 @@
 # for pairs of x,y points compute the signed perpindicular distance to a discriminant line with parameters b,w
 # the equation of the discriminant is b+x*w[0]+y*w[1] = 0
 # perpindicular distance is the shortest distance between a point and line
-# show that changing the sign of b,w changes the sign of the distance
+# use  a simple example to show distance is correct and show distance is signed
+# show that changing the sign is working by testing a point above and below the x-axis with a horizontal line
 
-# use  a simple example to show distance is correct 
-
-
-# show distance is signed, flip b and w sign and distances should have opposite sign
+ 
