@@ -37,7 +37,7 @@
 
 
 # Exercise 5
-# for pairs of x,y points compute the signed perpendicular distance to a discriminant line with parameters b,w
+# for 2-d x,y points compute the signed perpendicular distance to a discriminant line with parameters b,w
 # use  a simple example to test your code. You might want to use the x or y axis as the discriminant
 # For your simple example, flip the point around the discriminant and show that the sign of the distance changes
 
