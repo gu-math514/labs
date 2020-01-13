@@ -27,14 +27,12 @@
  
 #Exercise 4
 # write a closure that accepts, x,a,b and returns 2 functions, a function f that returns (x+a)*(x*x-b*b) and function g that is its derivative,
-# use scipy.optimize brentq root finder to find smallest root of given function with a=1., b=1.1.
-# plot the function f and derivative g funct
-# Based on the plot you might randomly try a window of -2 and 0 and see what happens.
+# use scipy.optimize brentq root finder to find negative roots of the given function with a=1., b=1.1.
+# Plot the function f and look at it
+# Based on the plot you might try a window of -2 and 0 and see what happens.
 
-# One approach to find a reasonable window is to find the roots of the derivative, 
-# as those are inflection points, to comple up with reasonable windows to find the negative roots.
-# Use root finder to find roots of the derivative function and use that to find a suitable window to find the 2 negative roots of f
- 
+# One approach to find a reasonable window is to find the roots of the derivative.
+# Use root finder to find roots of the derivative function. Use results find f's negative roots.
 
 
 
@@ -44,6 +42,6 @@
 # the equation of the discriminant is b+x*w[0]+y*w[1] = 0
 # perpindicular distance is the shortest distance between a point and line
 # use  a simple example to show distance is correct and show distance is signed
-# show that changing the sign is working by testing a point above and below the x-axis with a horizontal line
+# show that changing the sign is working by testing a point above and below the x-axis with a horizontal line or another simple case
 
  
