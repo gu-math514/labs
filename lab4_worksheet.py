@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 
 # exercise 0: Questions about hw3?
 
+# Note: possible solutions to execercises is at bottom of file, but try to solve on own first
+
 # exercise 1
 
 # part a.
@@ -33,8 +35,10 @@ import matplotlib.pyplot as plt
 
 
 # exercise 3
-# given a vector of real numbers, compute the stables softmax matrix
+# given a vector of real numbers, compute the stable softmax matrix
 # (show softmax slide)
+def stable_softmax(z):
+   pass
 
 
 
@@ -77,7 +81,7 @@ xy,t=gmixf(50,40,30)
 # can you describe what they do?
 # second, look at the 'predict' function. Can you describe what it does?
 # note that 'predict' uses the stable_softmax function
-# the code randomly chooses values for b,w. why are those dimensions correct?
+# this code randomly chooses values for b,w. why are those dimensions correct?
 # what could I have done to make this code more generic?
 
 # finally, use this code and the random b,w vectors and plot the
