@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 # The following code is an example of a generator
 # What do you get when you run print(fib(1))?
 # Use fib(50) in an enumeration loop and print the index and value. 
-# What is the largest fibonaccie number less that 50?
+# What is the largest fibonacci number less that 50?
 def fib(n):
     a,b=0,1
     while a<n:
@@ -83,6 +83,19 @@ class LRSched:
 
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 # 1. Activation functions
