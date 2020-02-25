@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 1. Activation functions
-# Write 3 closures that accept needed arguments and return f(x), df/dz(z) for following 3 closures
+# Write 3 closures that accept needed arguments and return f(z), df/dz(z) for following 3 closures
 # a. relu,  f(z)=max(0,z)
 # b. selu,  f(z)=lambda*z for z>=0, =lambda*alpha*(e^z-1) for z<0
 # c. swish, f(z)=z*sigmoid(beta*z)
