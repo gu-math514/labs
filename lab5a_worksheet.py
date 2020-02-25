@@ -53,6 +53,8 @@ def data_genf(n,batch_size,shuffle=True):
 # write a third version of your closure/generator that now takes x,y as inputs and
 # it returns shuffled batches x,y on each call.
 # use the following for x,y
+x=np.array(np.arange(24)).reshape(-1,3)
+y=np.sum(x,axis=1)
         
 # simple data loader for small array data sets
 def array_data_genf(x,y,batch_size=None,shuffle=True):
